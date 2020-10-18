@@ -6888,6 +6888,15 @@ cross-fetch@3.0.6:
   dependencies:
     node-fetch "2.6.1"
 
+cross-spawn@7.0.3, cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
+  integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
+  dependencies:
+    path-key "^3.1.0"
+    shebang-command "^2.0.0"
+    which "^2.0.1"
+
 cross-spawn@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-3.0.1.tgz#1256037ecb9f0c5f79e3d6ef135e30770184b982"
@@ -6915,15 +6924,6 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     semver "^5.5.0"
     shebang-command "^1.2.0"
     which "^1.2.9"
-
-cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
-  integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
-  dependencies:
-    path-key "^3.1.0"
-    shebang-command "^2.0.0"
-    which "^2.0.1"
 
 crypto-browserify@3.12.0, crypto-browserify@^3.11.0:
   version "3.12.0"
@@ -11563,7 +11563,7 @@ jest@26.5.2:
     import-local "^3.0.2"
     jest-cli "^26.5.2"
 
-jest@^26.5.3:
+jest@26.5.3:
   version "26.5.3"
   resolved "https://registry.yarnpkg.com/jest/-/jest-26.5.3.tgz#5e7a322d16f558dc565ca97639e85993ef5affe6"
   integrity sha512-uJi3FuVSLmkZrWvaDyaVTZGLL8WcfynbRnFXyAHuEtYiSZ+ijDDIMOw1ytmftK+y/+OdAtsG9QrtbF7WIBmOyA==
@@ -14493,7 +14493,7 @@ postcss-flexbugs-fixes@4.2.1:
   dependencies:
     postcss "^7.0.26"
 
-postcss-import@12.0.1, postcss-import@^12.0.1:
+postcss-import@12.0.1:
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/postcss-import/-/postcss-import-12.0.1.tgz#cf8c7ab0b5ccab5649024536e565f841928b7153"
   integrity sha512-3Gti33dmCjyKBgimqGxL3vcV8w9+bsHwO5UrBawp796+jdardbcFl4RP5w/76BwNL7aGzpKstIfF9I+kdE8pTw==
@@ -14521,7 +14521,7 @@ postcss-loader@3.0.0:
     postcss-load-config "^2.0.0"
     schema-utils "^1.0.0"
 
-postcss-loader@4.0.4, postcss-loader@^4.0.4:
+postcss-loader@4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-4.0.4.tgz#b2d005b52e008a44991cf8123bee207e635eb53e"
   integrity sha512-pntA9zIR14drQo84yGTjQJg1m7T0DkXR4vXYHBngiRZdJtEeCrojL6lOpqUanMzG375lIJbT4Yug85zC/AJWGw==
@@ -15238,7 +15238,7 @@ react-helmet@^6.0.0:
     react-fast-compare "^3.1.1"
     react-side-effect "^2.1.0"
 
-react-hot-loader@4.13.0, react-hot-loader@^4.13.0:
+react-hot-loader@4.13.0:
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.13.0.tgz#c27e9408581c2a678f5316e69c061b226dc6a202"
   integrity sha512-JrLlvUPqh6wIkrK2hZDfOyq/Uh/WeVEr8nc7hkn2/3Ul0sx1Kr5y4kOGNacNRoj7RhwLNcQ3Udf1KJXrqc0ZtA==
@@ -17470,7 +17470,7 @@ svelte-dev-helper@^1.1.9:
   resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.9.tgz#7d187db5c6cdbbd64d75a32f91b8998bde3273c3"
   integrity sha1-fRh9tcbNu9ZNdaMvkbiZi94yc8M=
 
-svelte-loader@^2.13.6:
+svelte-loader@2.13.6:
   version "2.13.6"
   resolved "https://registry.yarnpkg.com/svelte-loader/-/svelte-loader-2.13.6.tgz#3d5efd5886c2bab034606d5af0cce659da3ee555"
   integrity sha512-7uf7ZQdPAl+lwb1ldUYJFY/raZRUCuaNx7lMJ+F16jrVwN1+c35C2pBMGIY0mCqdKm5sm45jqELJJLGM3UG9Pw==
@@ -18685,7 +18685,7 @@ webpack-dev-middleware@3.7.2, webpack-dev-middleware@^3.7.2:
     range-parser "^1.2.1"
     webpack-log "^2.0.0"
 
-webpack-dev-middleware@4.0.0-rc.3, webpack-dev-middleware@^4.0.0-rc.3:
+webpack-dev-middleware@4.0.0-rc.3:
   version "4.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-4.0.0-rc.3.tgz#986c047d579a320499e6217c96562265c2438abe"
   integrity sha512-nuZHcVtI1qVJxGYWEnCeN9UiQesOTUYQZQiJnrt1ma5FSYK1OTH0ySG45yUE44aVSFrN+teZX7WQTH6hF2vgFA==
@@ -18735,7 +18735,7 @@ webpack-dev-server@3.11.0:
     ws "^6.2.1"
     yargs "^13.3.2"
 
-webpack-hot-middleware@2.25.0, webpack-hot-middleware@^2.25.0:
+webpack-hot-middleware@2.25.0:
   version "2.25.0"
   resolved "https://registry.yarnpkg.com/webpack-hot-middleware/-/webpack-hot-middleware-2.25.0.tgz#4528a0a63ec37f8f8ef565cf9e534d57d09fe706"
   integrity sha512-xs5dPOrGPCzuRXNi8F6rwhawWvQQkeli5Ro48PRuQh8pYPCPmNnltP9itiUPT4xI8oW+y0m59lyyeQk54s5VgA==
@@ -18745,7 +18745,7 @@ webpack-hot-middleware@2.25.0, webpack-hot-middleware@^2.25.0:
     querystring "^0.2.0"
     strip-ansi "^3.0.0"
 
-webpack-hot-server-middleware@0.6.1, webpack-hot-server-middleware@^0.6.1:
+webpack-hot-server-middleware@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/webpack-hot-server-middleware/-/webpack-hot-server-middleware-0.6.1.tgz#1515b2d5db3277b583b01fc59bb0d5b87dc46494"
   integrity sha512-YOKwdS0hnmADsNCsReGkMOBkoz2YVrQZvnVcViM2TDXlK9NnaOGXmnrLFjzwsHFa0/iuJy/QJFEoMxzk8R1Mgg==
@@ -18777,7 +18777,7 @@ webpack-merge@5.2.0:
     clone-deep "^4.0.1"
     wildcard "^2.0.0"
 
-webpack-node-externals@2.5.2, webpack-node-externals@^2.5.2:
+webpack-node-externals@2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/webpack-node-externals/-/webpack-node-externals-2.5.2.tgz#178e017a24fec6015bc9e672c77958a6afac861d"
   integrity sha512-aHdl/y2N7PW2Sx7K+r3AxpJO+aDMcYzMQd60Qxefq3+EwhewSbTBqNumOsCE1JsCUNoyfGj5465N0sSf6hc/5w==
